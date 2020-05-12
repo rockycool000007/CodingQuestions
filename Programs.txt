@@ -1,0 +1,71 @@
+﻿https://www.softwaretestinghelp.com/java-coding-interview-programs/
+https://javarevisited.blogspot.com/2017/07/top-50-java-programs-from-coding-Interviews.html
+String Anagram
+Fibonacci series
+Factorial
+Sum of digits of a number
+Swap numbers with and without temp variables
+Reverse words
+Reverse sentence
+Reverse a number
+Check if 2 arrays are equal
+
+Prime number
+String Palindrome
+Integer Palindrome
+Armstrong number
+Print patterns of a string
+Print repeated characters of a string
+
+Leap year
+Binary Search
+
+
+
+Second highest number in array
+Remove all spaces from a word without using replace
+Check if 2 strings are rotation of each other
+Find missing number between 1 to 20
+
+Find pairs of numbers in array whose sum = number
+Reverse an array
+Remove duplicates from an array
+Largest and smallest number of unsorted array
+Insert element at position in array
+GCD of 2 numbers
+Square root of a number
+Prime number
+
+
+https://javaconceptoftheday.com/java-interview-programs-with-solutions/
+Matrix addition / subtraction
+Count occurences of each character in a string
+Find largest number less that a given number not containing a given digit
+Find intersection of 2 arrays
+Check if a number is binary or not (something that only contains 0 or 1)
+Reverse a sentence
+Separate zeros from non-zeros in an array. Bring 0 to start or end
+Descending sort or leaders in array
+Create palindrome from user input
+Reverse the string by preserving its position
+Find all permutations of the input string
+Check if a number belongs to Fibonacci series
+Find most frequent element in an array
+Find if number is Harshad/Niven number
+
+
+Bubble sort
+Quick sort
+Selection sort
+Insertion sort
+Linked List
+Binary Search
+Find All Permutations of a string
+
+Iterate through dictionary
+Program to read/write excel
+Program to read/write a text file
+Remove element at specific index (, specific element, multiple elements at different indices, all occurences) from array / list
+Datetime
+List all files in directory
+Avoiding deadlock in Java

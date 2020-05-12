@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D36F1722-6BB7-4BC2-BFC1-FD86D68C7DD5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CodingQuestions</RootNamespace>
+    <AssemblyName>CodingQuestions</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CodingQuestions.Important.CountLengthOfNumber</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bitwise\Addition.cs" />
+    <Compile Include="Important\Anagram.cs" />
+    <Compile Include="Important\CheckArrayEquality.cs" />
+    <Compile Include="Important\Factorial.cs" />
+    <Compile Include="Important\FibonacciForARange.cs" />
+    <Compile Include="Important\Fibonacci.cs" />
+    <Compile Include="Important\ReverseNumber.cs" />
+    <Compile Include="Important\ReverseString.cs" />
+    <Compile Include="Important\SumOfANumber.cs" />
+    <Compile Include="Important\Swaping.cs" />
+    <Compile Include="Important\CountLengthOfNumber.cs" />
+    <Compile Include="Recursion\LargestElementInArray.cs" />
+    <Compile Include="Recursion\PercentageForANumber.cs" />
+    <Compile Include="Important\PowerOfNumber.cs" />
+    <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="CelciusToFahrenheit.cs" />
+    <Compile Include="CharacterPosition.cs" />
+    <Compile Include="DuplicatesInArray.cs" />
+    <Compile Include="EvenOdd.cs" />
+    <Compile Include="FactorsOfNumberSum.cs" />
+    <Compile Include="FactorsOfNumber.cs" />
+    <Compile Include="LeapYear.cs" />
+    <Compile Include="PalindromeString.cs" />
+    <Compile Include="PalindromeNumber.cs" />
+    <Compile Include="Pattern\PrintPattern12.cs" />
+    <Compile Include="Pattern\PrintPattern11.cs" />
+    <Compile Include="Pattern\PrintPattern10.cs" />
+    <Compile Include="Pattern\PrintPattern9.cs" />
+    <Compile Include="Pattern\PrintPattern8.cs" />
+    <Compile Include="Pattern\PrintPattern7.cs" />
+    <Compile Include="PrimeNumber.cs" />
+    <Compile Include="Pattern\PrintPattern6.cs" />
+    <Compile Include="Pattern\PrintPattern5.cs" />
+    <Compile Include="Pattern\PrintPattern4.cs" />
+    <Compile Include="Pattern\PrintPattern3.cs" />
+    <Compile Include="Pattern\PrintPattern2.cs" />
+    <Compile Include="Pattern\PrintPattern1.cs" />
+    <Compile Include="PrintTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseNumber.cs" />
+    <Compile Include="ReverseString.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
+    <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="SumOfNaturalNumbers.cs" />
+    <Compile Include="SumOfNumber.cs" />
+    <Compile Include="SwapNumbers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Programs.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

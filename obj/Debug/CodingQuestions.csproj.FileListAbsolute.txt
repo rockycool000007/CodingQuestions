@@ -1,0 +1,7 @@
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.exe.config
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.exe
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.pdb
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.csprojAssemblyReference.cache
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.csproj.CoreCompileInputs.cache
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.exe
+D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.pdb
