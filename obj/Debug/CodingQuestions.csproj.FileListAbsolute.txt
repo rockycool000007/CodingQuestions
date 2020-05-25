@@ -5,3 +5,10 @@ D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.cs
 D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.csproj.CoreCompileInputs.cache
 D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.exe
 D:\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.pdb
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.exe.config
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.exe
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\bin\Debug\CodingQuestions.pdb
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.csproj.CoreCompileInputs.cache
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.exe
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.pdb
+D:\Work\Practice\BACKEND\CodingQuestions\CodingQuestions\obj\Debug\CodingQuestions.csprojAssemblyReference.cache

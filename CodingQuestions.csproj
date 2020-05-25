@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingQuestions.Important.CountLengthOfNumber</StartupObject>
+    <StartupObject>CodingQuestions.Recursion.PrintIndividualNumbers</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\XDeleteElement.cs" />
+    <Compile Include="Array\XAddNewItemInSortedArray.cs" />
+    <Compile Include="Array\DescendingSort.cs" />
+    <Compile Include="Array\AscendingSort.cs" />
+    <Compile Include="Array\Copy.cs" />
+    <Compile Include="Array\Duplicate.cs" />
+    <Compile Include="Array\ItemCount.cs" />
+    <Compile Include="Array\MaxMinItem.cs" />
+    <Compile Include="Array\MergeSortArray.cs" />
+    <Compile Include="Array\Reverse.cs" />
+    <Compile Include="Array\SeparateEvenOdd.cs" />
+    <Compile Include="Array\Sum.cs" />
+    <Compile Include="Array\Unique.cs" />
     <Compile Include="Bitwise\Addition.cs" />
     <Compile Include="Important\Anagram.cs" />
     <Compile Include="Important\CheckArrayEquality.cs" />
@@ -57,9 +70,15 @@
     <Compile Include="Important\SumOfANumber.cs" />
     <Compile Include="Important\Swaping.cs" />
     <Compile Include="Important\CountLengthOfNumber.cs" />
+    <Compile Include="Misc\BinarySearch\BinarySearch.cs" />
+    <Compile Include="Misc\BinarySearch\BinarySearchExample1.cs" />
+    <Compile Include="Misc\TwoPointerApproach\TwoPointerApproach1.cs" />
+    <Compile Include="Misc\TwoPointerApproach\TwoPointerApproach.cs" />
     <Compile Include="Recursion\LargestElementInArray.cs" />
     <Compile Include="Recursion\PercentageForANumber.cs" />
     <Compile Include="Important\PowerOfNumber.cs" />
+    <Compile Include="Recursion\PrintIndividualNumbers.cs" />
+    <Compile Include="Recursion\PrintNNaturalNumbers.cs" />
     <Compile Include="Sort\BubbleSort.cs" />
     <Compile Include="CelciusToFahrenheit.cs" />
     <Compile Include="CharacterPosition.cs" />
@@ -99,5 +118,6 @@
   <ItemGroup>
     <Content Include="Programs.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
