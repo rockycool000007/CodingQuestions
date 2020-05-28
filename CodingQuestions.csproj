@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingQuestions.Recursion.PrintIndividualNumbers</StartupObject>
+    <StartupObject>CodingQuestions.Array.Reverse</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -74,6 +74,7 @@
     <Compile Include="Misc\BinarySearch\BinarySearchExample1.cs" />
     <Compile Include="Misc\TwoPointerApproach\TwoPointerApproach1.cs" />
     <Compile Include="Misc\TwoPointerApproach\TwoPointerApproach.cs" />
+    <Compile Include="Recursion\FetchElements.cs" />
     <Compile Include="Recursion\LargestElementInArray.cs" />
     <Compile Include="Recursion\PercentageForANumber.cs" />
     <Compile Include="Important\PowerOfNumber.cs" />

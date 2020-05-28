@@ -15,6 +15,8 @@ namespace CodingQuestions.Array
                 Console.Write($"{item} ");
             });
 
+            Console.WriteLine($"Second largest element is : {ascSortArr[ascSortArr.Length - 2]}");
+
             Console.Read();
         }
 

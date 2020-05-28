@@ -8,6 +8,8 @@ namespace CodingQuestions.Array
         {
             int[] arr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             ReverseArray(arr);
+            Console.WriteLine();
+            RevArray(arr, arr.Length - 1);
             Console.Read();
         }
 
@@ -15,8 +17,17 @@ namespace CodingQuestions.Array
         {
             for (int i = arr.Length - 1; i >= 0; i--)
             {
-                Console.WriteLine(arr[i]);
+                Console.Write(arr[i] + " ");
             }
+        }
+
+        static void RevArray(int[] arr, int len)
+        {
+            if (len < 0)
+                return;
+
+            Console.Write(arr[len] + " ");
+            RevArray(arr, len - 1);
         }
     }
 }

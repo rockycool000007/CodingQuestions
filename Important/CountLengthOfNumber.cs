@@ -34,8 +34,7 @@ namespace CodingQuestions.Important
             if (num > 0)
             {
                 len++;
-                num /= 10;
-                return len + FindLengthOfNumber(num);
+                return len + FindLengthOfNumber(num / 10);
             }
             
             return len;
