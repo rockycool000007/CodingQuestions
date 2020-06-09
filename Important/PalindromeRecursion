@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingQuestions.Important
+{
+    class PalindromeRecursion
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Enter string to check if its a Palindrome : ");
+            string input = Console.ReadLine();
+
+            /* Both the string are using (n /2) and lowIndex < highIndex since the number of loop iterations be less */
+            Console.WriteLine(CheckIfPalindrome1(input));
+            Console.WriteLine(CheckIfPalindrome2(input));
+            
+            int s = 0, e = input.Length - 1;
+            bool isPalindrome = checkPalindrome(input, s, e);
+            Console.WriteLine(isPalindrome);
+            Console.ReadLine();
+        }
+
+        private static bool CheckIfPalindrome1(string input)
+        {
+            int n = input.Length;
+            int j = 0;      // lowest index
+            int k = n - 1;  // highest index
+
+            while (j < k)
+            {
+                if (!input[j].Equals(input[k]))
+                {
+                    return false;
+                }
+
+                j++;
+                k--;
+            }
+
+            return true;
+        }
+
+        private static bool CheckIfPalindrome2(string input)
+        {
+            int n = input.Length;
+            int j = 0;      // lowest index
+            int k = n - 1;  // highest index
+
+            for (int i = 0; i < n / 2; i++)
+            {
+                if (!input[j].Equals(input[k]))
+                {
+                    return false;
+                }
+
+                j++;
+                k--;
+            }
+
+            return true;
+        }
+
+        static bool checkPalindrome(string str, int s, int e)
+        {
+            if (s == e)
+            {
+                return true;
+            }
+
+            if (str[s] != str[e])
+            {
+                return false;
+            }
+
+            return checkPalindrome(str, s + 1, e - 1);
+        }
+    }
+}
