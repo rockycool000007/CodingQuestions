@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CodingQuestions
 {
@@ -6,6 +6,10 @@ namespace CodingQuestions
     {
         static void Main()
         {
+            Console.Write("Enter number to check if its Prime number : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            FindIfNumberIsPrime(num);
+
             Console.Write("Enter Range From : ");
             int from = Convert.ToInt32(Console.ReadLine());
 
@@ -15,6 +19,19 @@ namespace CodingQuestions
             FindPrimeNumberInaRange(from, to);
 
             Console.Read();
+        }
+
+        static void FindIfNumberIsPrime(int a)
+        {
+            bool isPrime = true;
+            for (int i = 2; i < Math.Round(Math.Sqrt(a)); i++)
+            {
+                if (a % i == 0)
+                    isPrime = false;
+            }
+
+            Console.WriteLine($"{a} is {(isPrime ? " Prime" : "Not Prime")}");
+
         }
 
         static void FindPrimeNumberInaRange(int a, int b)
