@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace CodingQuestions.Array
@@ -8,34 +8,34 @@ namespace CodingQuestions.Array
         static void Main()
         {
             int[] arr = { 5, 5, 6, 2, 7, 5, 8, 7 };
-            var dict = FindUniqueElements(arr);
+            var dict = FindUniques(arr);
 
             foreach (var item in dict)
             {
-                if (item.Value == -1)
+                if (item.Value == 1)
                     Console.WriteLine($"{item.Key} is unique");
             }
 
             Console.Read();
         }
 
-        static Dictionary<int, int> FindUniqueElements(int[] arr)
+        static Dictionary<int, int> FindUniques(int[] arr)
         {
-            Dictionary<int, int> dict = new Dictionary<int, int>();
+            Dictionary<int, int> dup = new Dictionary<int, int>();
 
-            for (int i = 0; i < arr.Length; i++)
+            for(int i=0; i<arr.Length; i++)
             {
-                if(dict.ContainsKey(arr[i]))
+                if (!dup.ContainsKey(arr[i]))
                 {
-                    dict[arr[i]] = arr[i];
+                    dup.Add(arr[i], 1);
                 }
                 else
                 {
-                    dict.Add(arr[i], -1);
+                    dup[arr[i]] = dup[arr[i]] + 1;
                 }
             }
 
-            return dict;
+            return dup;
         }
     }
 }
