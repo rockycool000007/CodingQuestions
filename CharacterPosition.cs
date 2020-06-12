@@ -29,7 +29,7 @@ namespace CodingQuestions
                     Console.WriteLine($"'{character}' found at position '{i}'");
                     count++;
                 }
-                    
+
                 i++;
             }
 

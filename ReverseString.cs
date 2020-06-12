@@ -40,11 +40,12 @@ namespace CodingQuestions
             Console.WriteLine($"Reverse of '{str}' is '{reverseString}'");
         }
 
-        static string ReverseInputString3(string str, int n)
+        static string ReverseInputString3(string str, int length)
         {
             string reverseString = string.Empty;
-            while (n >= 0)
-                reverseString += ReverseInputString3(str, n - 1);
+
+            if (length >= 0)
+                reverseString = str[length] + ReverseInputString3(str, length - 1);
 
             return reverseString;
         }

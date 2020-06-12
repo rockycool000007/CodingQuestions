@@ -61,11 +61,10 @@ namespace CodingQuestions.Important
                 return;
 
             int thirdNum = firstNum + secondNum;
-
-            Console.Write($"{thirdNum} ");
-
             firstNum = secondNum;
             secondNum = thirdNum;
+
+            Console.Write($"{thirdNum} ");
 
             FindFibonacciSeries(firstNum, secondNum, length - 1);
         }

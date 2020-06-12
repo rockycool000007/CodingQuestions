@@ -14,15 +14,22 @@ namespace CodingQuestions
             Console.Read();
         }
 
+        static int FindSum(int num)
+        {
+            if (num == 0)
+                return 0;
+
+            return num % 10 + FindSum(num / 10);
+        }
+
         static int FindSumOfEnteredNumber(int num)
         {
             int sum = 0;
 
             while(num != 0)
             {
-                int div = num % 10;
-                num = num / 10;
-                sum += div;
+                sum += num % 10;
+                num /= 10;
             }
 
             return sum;

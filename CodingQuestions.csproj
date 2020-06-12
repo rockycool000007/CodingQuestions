@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingQuestions.Array.Reverse</StartupObject>
+    <StartupObject>CodingQuestions.ReverseNumber</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="Array\Sum.cs" />
     <Compile Include="Array\Unique.cs" />
     <Compile Include="Bitwise\Addition.cs" />
+    <Compile Include="Collections\LinkedListCollection.cs" />
     <Compile Include="Important\Anagram.cs" />
     <Compile Include="Important\CheckArrayEquality.cs" />
     <Compile Include="Important\Factorial.cs" />

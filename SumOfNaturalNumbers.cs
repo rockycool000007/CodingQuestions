@@ -21,9 +21,7 @@ namespace CodingQuestions
             if (count.Equals(0))
                 return 0;
 
-            int sum = count;
-            sum += FindSumOfNaturalNumbersWithRecursion(count - 1);
-            return sum;
+            return count + FindSumOfNaturalNumbersWithRecursion(count - 1);
         }
 
         private static void FindSumOfNaturalNumbersWORecursion1(int count)
