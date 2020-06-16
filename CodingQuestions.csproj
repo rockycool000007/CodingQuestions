@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingQuestions.Algorithms.Sorting.BubbleSort</StartupObject>
+    <StartupObject>CodingQuestions.Algorithms.Searching.BinarySearch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Sorting\BubbleSort.cs" />
+    <Compile Include="Algorithms\Searching\2_BinarySearch.cs" />
+    <Compile Include="Algorithms\Sorting\1_BubbleSort.cs" />
+    <Compile Include="Algorithms\Sorting\2_SelectionSort.cs" />
     <Compile Include="Array\XDeleteElement.cs" />
     <Compile Include="Array\XAddNewItemInSortedArray.cs" />
     <Compile Include="Array\DescendingSort.cs" />
