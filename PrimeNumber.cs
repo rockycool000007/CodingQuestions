@@ -21,6 +21,19 @@ namespace CodingQuestions
             Console.Read();
         }
 
+        static bool FindIfPrime(int num)
+        {
+            if (num <= 1) return false;
+            if (num <= 3) return true;
+
+            for (int i = 2; i < Math.Round(Math.Sqrt(num)); i++)
+            {
+                if ((num % i).Equals(0)) return false;
+            }
+
+            return true;
+        }
+
         static void FindIfNumberIsPrime(int a)
         {
             bool isPrime = true;
