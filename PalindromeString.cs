@@ -9,12 +9,26 @@ namespace CodingQuestions
             Console.Write("Enter string to check if its a Palindrome : ");
             string input = Console.ReadLine();
 
+            Console.WriteLine(CheckIfPalindrome(input));
             /* Both the string are using (n /2) and lowIndex < highIndex since the number of loop iterations be less */
             Console.WriteLine(CheckIfPalindrome1(input));
             Console.WriteLine(CheckIfPalindrome2(input));
-            CheckIfPalindromeRecursion(input);
 
             Console.Read();
+        }
+
+        private static bool CheckIfPalindrome(string input)
+        {
+            int start = 0;
+            int end = input.Length - 1;
+            for (int i = 0; start < end; i++)
+            {
+                if (input[start] != input[end]) return false;
+                start++;
+                end--;
+            }
+
+            return true;
         }
 
         private static bool CheckIfPalindrome1(string input)
@@ -55,11 +69,6 @@ namespace CodingQuestions
             }
 
             return true;
-        }
-
-        private static void CheckIfPalindromeRecursion(string input)
-        {
-            // throw new NotImplementedException();
         }
     }
 }
