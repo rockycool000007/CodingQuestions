@@ -11,7 +11,16 @@ namespace CodingQuestions
             ReverseInputString1(str);
             ReverseInputString2(str);
             ReverseInputString3(str, str.Length - 1);
+            Reverse(str, str.Length - 1);
             Console.Read();
+        }
+
+        static string Reverse(string input, int len)
+        {
+            if (len < 0)
+                return String.Empty;
+
+            return input[len] + Reverse(input, len - 1);
         }
 
         static void ReverseInputString1(string str)
